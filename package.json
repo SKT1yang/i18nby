@@ -1,0 +1,14 @@
+{
+  "name": "i18nby",
+  "version": "1.0.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "pnpm -r build",
+    "test": "pnpm -r test"
+  },
+  "devDependencies": {
+    "typescript": "5.9.2"
+  }
+}
